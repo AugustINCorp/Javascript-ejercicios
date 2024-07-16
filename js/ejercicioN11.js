@@ -8,7 +8,7 @@ Output: El 20 es divisible por 2 y por 5.
 Output: El 210 es divisible por 2, por 3, por 5 y por 7.
  */
 
-let numero = 75
+let numero = parseInt(prompt('Ingrese un número:'))
 let divisibles = ""; // Las comillas sueltas son para que el console escriba la variable que coincide (Explicacion)
 
 if (numero % 2 === 0) {

@@ -2,6 +2,7 @@
 Nota: Tener en cuenta la siguiente función: parseInt
  */
 
-let numero = 10
-numero = 10 + 5
-document.write('Suma: ' + numero)
+let numero = parseInt(prompt('Ingrese un número:'))
+let segNumero = parseInt(prompt('Ingrese un segundo número:'))
+alert( numero + segNumero )
+

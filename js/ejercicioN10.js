@@ -5,7 +5,9 @@ input: 20
 
 Output: El 20 es divisible por 2.
  */
-let numero = 25
+let numero = parseInt(prompt('Ingrese un número:'))
+
+console.log(numero)
 
 if (numero % 2 === 0) {
     console.log(numero + " es divisible por 2.");
